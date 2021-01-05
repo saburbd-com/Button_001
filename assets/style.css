@@ -1,0 +1,109 @@
+/* Font Include */
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Rajdhani:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.button-content {
+    display: flex;
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    font-size: 25px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+h1, p {
+    font-family: 'Langar', cursive;
+}
+
+/* Responsive */
+@media only screen and (min-width: 576px) {
+    h1 {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        overflow: hidden;
+    }
+    
+    .button-content {
+        height: 75vh;
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+    
+    .button-content .row {
+        padding-top: 930px;
+        padding-bottom: 0;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+}
+
+.btn {
+    color: #000;
+    font-size: 50px;
+    margin: 40px 0px;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+    border: 5px solid #000;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.pripary {
+    background-color: #0d6efd;
+}
+
+.secondary {
+    background-color: #6c757d;
+}
+
+.success {
+    background-color: #198754;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+
+.warning {
+    background-color: #ffc107;
+}
+
+.info {
+    background-color: #0dcaf0;
+}
+
+.light {
+    background-color: #f8f9fa;
+}
+
+.dark {
+    background-color: #212529;
+}
